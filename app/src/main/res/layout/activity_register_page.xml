@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+   <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/blue"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context=".RegisterPage">
+
+    <TextView
+        android:layout_width="316dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="monospace"
+        style="@style/TEXT"
+        android:text="CREATE AN ACCOUNT"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold" />
+
+    <TextView
+
+        android:layout_width="375dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        style="@style/TEXT"
+        android:text="Get started with a free account"
+        android:layout_marginLeft="60dp"
+        android:textSize="15sp" />
+
+<com.google.android.material.textfield.TextInputLayout
+style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_marginTop="30dp">
+
+<com.google.android.material.textfield.TextInputEditText
+    android:id="@+id/email"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    style="@style/TEXT"
+    android:hint="@string/email"
+    android:inputType="textEmailAddress" />
+
+</com.google.android.material.textfield.TextInputLayout>
+
+<com.google.android.material.textfield.TextInputLayout
+style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_marginTop="30dp"
+app:passwordToggleEnabled="true">
+
+
+<com.google.android.material.textfield.TextInputEditText
+    android:id="@+id/password"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    style="@style/TEXT"
+    android:hint="Password"
+    android:inputType="textPassword"
+    />
+
+</com.google.android.material.textfield.TextInputLayout>
+
+<Button
+android:id="@+id/sign_up"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_marginTop="60dp"
+android:background="@drawable/round_btn"
+android:text="SIGN UP" />
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal"
+android:layout_marginTop="20dp"
+android:gravity="center">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="15sp"
+    style="@style/TEXT"
+    android:text="Have already an account ?"/>
+
+<TextView
+    android:id="@id/sign_in"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="15sp"
+    android:layout_marginStart="10dp"
+    android:text="Sign in"
+    android:textColor="@color/dark_blue"
+    />
+
+
+
+</LinearLayout>
+
+
+
+    </LinearLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "351646438373",
+    "project_id": "login-register-35d01",
+    "storage_bucket": "login-register-35d01.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:351646438373:android:63df1b1fdce5155f36150c",
+        "android_client_info": {
+          "package_name": "com.osrillera.ceocatsplashscreen"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDexaBv41bP7uwoBHcq-YjJYmfMKCPENc4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
